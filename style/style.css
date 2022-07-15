@@ -1,0 +1,62 @@
+body{
+    /* text-align: center; */
+}
+
+.toggle, .fadeToggle{
+    padding: 40px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+}
+
+.red, .blue, .green{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.flip, .painel{
+    padding: 5px;
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.painel{
+    display: none;
+    padding: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+}
+td,
+th {
+    border: 1px solid #CCC;
+    text-align: center;
+    padding: 8px;
+}
+
+input{
+    margin-left: 10%;
+    margin-bottom: 1%;
+    padding: 8px;
+}
+
+ul.mercado{
+    margin-left: 10%;
+
+}
